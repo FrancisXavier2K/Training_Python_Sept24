@@ -7,7 +7,7 @@ noteTablesCreate()
 
 app = Flask(__name__)
 
-@app.route('/notes',methods=['POST'])
+@app.route('/flights',methods=['POST'])
 def notes_create():
     body = request.get_json()
     new_note = Note(body['title'], body['notes'])
