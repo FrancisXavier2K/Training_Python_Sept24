@@ -1,0 +1,11 @@
+num,question,option1,option2,option3,option4,correctoption
+1,10+20 is,20,30,40,10,op2
+2,5/2 is,2.5,3,6,7,op1
+3,The capital of India is,Delhi,Bangalore,Mumbai,Chennai,op1
+4,Which of the following is an operating system,Windows,MS Paint,Google Chrome,Antivirus,op1
+5,What is 10*2,10,20,30,40,op2
+6,Which is the largest planet,Earth,Mars,Jupiter,Venus,op3
+7,The chemical formula for water is,H2O,CO2,NH3,O2,op1
+8,Which language is primarily used for web development,Python,Java,HTML,C++,op3
+9,What is the square root of 16,2,4,6,8,op2
+10,The fastest land animal is,Lion,Elephant,Leopard,Cheetah,op4
