@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exam</title>
+</head>
+<body>
+    <h1>MCQ Exam</h1>
+    <form method="POST">
+        <label for="name">Name:</label>
+        <input type="text" name="name" required><br>
+        <label for="university">University:</label>
+        <input type="text" name="university" required><br>
+
+        {% for question in questions %}
+            <h3>{{ loop.index }}. {{ question.question }}</h3>
+            <input type="radio" name="question_{{ loop.index0 }}" value="1">{{ question.option1 }}<br>
+            <input type="radio" name="question_{{ loop.index0 }}" value="2">{{ question.option2 }}<br>
+            <input type="radio" name="question_{{ loop.index0 }}" value="3">{{ question.option3 }}<br>
+            <input type="radio" name="question_{{ loop.index0 }}" value="4">{{ question.option4 }}<br>
+        {% endfor %}
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
