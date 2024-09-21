@@ -1,7 +1,0 @@
-
-
-Suppose if your laptop doesn't have a flask module installed.
-
-There is a folder here attached Libraries with all the modules in it.
-
-Before executing the app.py, make sure that the modules in the Libraries folder are pasted in the project folder.
